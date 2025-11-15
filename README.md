@@ -1,18 +1,21 @@
 # DSW2 – AA2
 
-## 🚀 Como executar o projeto
+Aplicação desenvolvida para a disciplina Desenvolvimento de Software para Web 2 (UFSCar, 12/2025). Sistema simples para gerenciamento de venda de veículos, com cadastro/login de usuários, listagem e cadastro de carros e visualização de propostas, utilizando React e uma API fake com JSON Server.
 
-Para iniciar o projeto, siga estes passos:
+## Como executar
 
-1. Instale as dependências com o comando: npm install  
-2. Inicie o JSON Server com o comando: npm run start:json-server  
-3. Em outro terminal, inicie a aplicação React com o comando: npm run dev  
+- `npm install`
+- `npm run start:json-server` (API em `http://localhost:5000/`)
+- `npm run dev` (app em `http://localhost:5173/`)
 
-A aplicação ficará disponível em http://localhost:5173/  
-A API ficará disponível em http://localhost:5000/
+## Tecnologias
 
----
+- React + Vite
+- JavaScript (ES6+)
+- HTML5 e CSS3 (responsivo)
+- JSON Server
+- LocalStorage (API Web)
 
-## 👨‍💻 Autor  
-**Adriano Tavares**  
-**RA: 811389**
+## Autor
+
+Adriano Tavares – RA: 811389
