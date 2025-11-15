@@ -1,0 +1,45 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Loja Centro",
+      "email": "loja@teste.com",
+      "senha": "123",
+      "tipo": "loja"
+    },
+    {
+      "id": 2,
+      "nome": "João",
+      "email": "cliente@teste.com",
+      "senha": "123",
+      "tipo": "cliente"
+    }
+  ],
+  "carros": [
+    {
+      "id": 1,
+      "nome": "Honda Civic 2020",
+      "descricao": "Completo, único dono",
+      "km": 45000,
+      "cambio": "Automático",
+      "combustivel": "Flex",
+      "preco": 89900,
+      "imagem": "/img/civic.jpg",
+      "lojaId": 1
+    },
+    {
+      "id": 2,
+      "nome": "Jeep Renegade 2018",
+      "descricao": "Versão Sport",
+      "km": 62300,
+      "cambio": "Manual",
+      "combustivel": "Gasolina",
+      "preco": 79500,
+      "imagem": "/img/renegade.jpg",
+      "lojaId": 1
+    }
+  ],
+  "propostas": [
+    
+  ]
+}
