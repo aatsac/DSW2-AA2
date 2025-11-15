@@ -1,16 +1,51 @@
-# React + Vite
+# DSW2 – AA2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação front-end desenvolvida para a disciplina **Desenvolvimento de Software para Web 2 (DSW2)** da UFSCar.
 
-Currently, two official plugins are available:
+O projeto foi criado com **Vite + React** e implementa uma interface básica com páginas de cadastro, login e navegação entre diferentes telas da aplicação.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🧩 Funcionalidades básicas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+De forma geral, a aplicação contém as seguintes páginas (em `src/pages/`):
 
-## Expanding the ESLint configuration
+- **Home.jsx**  
+  Página inicial da aplicação, ponto de entrada para o usuário.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Login.jsx**  
+  Tela de autenticação do usuário.
+
+- **CadastroUsuario.jsx**  
+  Formulário para cadastro de novos usuários no sistema.
+
+- **Loja.jsx**  
+  Página de listagem/visualização de itens disponíveis (loja).
+
+- **LojaCadastro.jsx**  
+  Tela para cadastro/gerenciamento dos itens da loja.
+
+- **Cliente.jsx**  
+  Tela relacionada às informações/visão do cliente.
+
+- **Propostas.jsx**  
+  Tela para visualização/cadastro de propostas (por exemplo, propostas de compra/negócio).
+
+As imagens utilizadas pela interface encontram-se em `public/img/` e os estilos principais em `src/App.css`, `src/index.css` e `src/assets/style.css`.
+
+---
+
+## 🚀 Como executar o projeto
+
+Pré-requisitos:
+- **Node.js** (LTS recomendado)
+- **npm** (instalado junto com o Node)
+
+Passos:
+
+```bash
+# 1. Instalar as dependências
+npm install
+
+# 2. Rodar o servidor de desenvolvimento
+npm run dev
